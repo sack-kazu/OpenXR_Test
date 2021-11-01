@@ -7,6 +7,7 @@ public class InputSystemDeviceDetector : MonoBehaviour
     string _oculus = "Oculus", _valve = "Valve", _htc = "HTC";
     private void Awake()
     {
+        _text.text = $"Awake";
         InputSystem.onDeviceChange += OnDeviceChange;
     }
 
@@ -17,6 +18,7 @@ public class InputSystemDeviceDetector : MonoBehaviour
     
     private void OnDeviceChange(InputDevice inputDevice, InputDeviceChange inputDeviceChange)
     {
+        _text.text = $"OnDeviceChange: {inputDeviceChange}";
         switch (inputDeviceChange)
         {
             case InputDeviceChange.Added:
