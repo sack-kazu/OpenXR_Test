@@ -5,10 +5,25 @@ public class InputSystemDeviceDetector : MonoBehaviour
 {
     [SerializeField] UnityEngine.UI.Text _text;
     string _oculus = "Oculus", _valve = "Valve", _htc = "HTC";
+    bool firstTime = true;
     private void Awake()
     {
         _text.text = $"Awake";
         InputSystem.onDeviceChange += OnDeviceChange;
+    }
+    void Update()
+    {
+        if (Keyboard.current.spaceKey.isPressed){
+            SwitchToVR();
+        }
+        /*
+        if(firstTime){
+            var manualXRControl = new ManualXRControl();
+            StartCoroutine(manualXRControl.StartXRCoroutine());
+            InputSystem.onDeviceChange += OnDeviceChange;
+            firstTime = false;
+        }
+        */
     }
 
     private void OnApplicationQuit()
@@ -44,5 +59,10 @@ public class InputSystemDeviceDetector : MonoBehaviour
     private void OnDeviceRemoved(InputDevice inputDevice)
     {
         Debug.Log($"Device Removed: {inputDevice.displayName}");
+    }
+    public void SwitchToVR(){
+        var manualXRControl = new ManualXRControl();
+        StartCoroutine(manualXRControl.StartXRCoroutine());
+        Debug.Log("pressed");
     }
 }
