@@ -14,7 +14,7 @@ public class InputSystemDeviceDetector : MonoBehaviour
     void Update()
     {
         if (Keyboard.current.spaceKey.isPressed){
-            SwitchToVR();
+            //SwitchToVR();
         }
         /*
         if(firstTime){
