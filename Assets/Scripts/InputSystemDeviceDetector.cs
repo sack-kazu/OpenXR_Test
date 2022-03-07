@@ -33,7 +33,7 @@ public class InputSystemDeviceDetector : MonoBehaviour
     
     private void OnDeviceChange(InputDevice inputDevice, InputDeviceChange inputDeviceChange)
     {
-        _text.text = $"OnDeviceChange: {inputDeviceChange}";
+        //_text.text = $"OnDeviceChange: {inputDeviceChange}";
         switch (inputDeviceChange)
         {
             case InputDeviceChange.Added:
@@ -52,7 +52,7 @@ public class InputSystemDeviceDetector : MonoBehaviour
         }else if(inputDevice.description.manufacturer  == _htc){
             _text.text = $"This is {_htc} device.";
         }else{
-            _text.text = $"This is unknown device.";
+            _text.text = $"This is {inputDevice.description.manufacturer} device.";
         }
     }
 
