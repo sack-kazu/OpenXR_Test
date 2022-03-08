@@ -15,16 +15,29 @@ public class XRPlayerTest : MonoBehaviour
     }
     void OnEnable()
     {
-        _input.actions["PrimaryButton"].started += OpenMenu;
+        var normal = _input.actions.FindActionMap("XRI LeftHand");
+        var menuMode = _input.actions.FindActionMap("XRI LeftHand Menu");
+        normal["PrimaryButton"].started += OpenMenu;
+        menuMode["PrimaryButton"].started += CloseMenu;
     }
     void OnDisable()
     {
-        _input.actions["PrimaryButton"].started -= OpenMenu; 
+        var normal = _input.actions.FindActionMap("XRI LeftHand");
+        var menuMode = _input.actions.FindActionMap("XRI LeftHand Menu");
+        normal["PrimaryButton"].started -= OpenMenu; 
+        menuMode["PrimaryButton"].started += CloseMenu;
+    }
+
+    private void CloseMenu(InputAction.CallbackContext obj)
+    {
+        menuObj.SetActive(false);
+        _input.SwitchCurrentActionMap("XRI LeftHand");
     }
 
     private void OpenMenu(InputAction.CallbackContext obj)
     {
-        menuObj.SetActive(!menuObj.activeSelf);
+        menuObj.SetActive(true);
+        _input.SwitchCurrentActionMap("XRI LeftHand Menu");
     }
 
     // Update is called once per frame
