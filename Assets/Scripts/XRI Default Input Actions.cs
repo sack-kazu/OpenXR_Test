@@ -587,521 +587,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
             ]
         },
         {
-            ""name"": ""XRI LeftHand Menu"",
-            ""id"": ""74a4eaf0-c438-49c0-8203-dd73e76e6691"",
-            ""actions"": [
-                {
-                    ""name"": ""Position"",
-                    ""type"": ""Value"",
-                    ""id"": ""f5d8fa03-e7fd-4a93-bf07-99e53d11bc38"",
-                    ""expectedControlType"": ""Vector3"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Rotation"",
-                    ""type"": ""Value"",
-                    ""id"": ""bb296885-a492-4383-8a85-d0d62a44e9c7"",
-                    ""expectedControlType"": ""Quaternion"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Select"",
-                    ""type"": ""Button"",
-                    ""id"": ""9ea05879-e8e3-4cd7-9ce6-f3bf4d1bd050"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Activate"",
-                    ""type"": ""Button"",
-                    ""id"": ""5f829a24-23be-4837-b070-17491969aec4"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""UI Press"",
-                    ""type"": ""Button"",
-                    ""id"": ""7ddb3984-d4d9-43ab-ba75-d589d91227c1"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Haptic Device"",
-                    ""type"": ""PassThrough"",
-                    ""id"": ""d2929411-5a28-4c83-b1d1-a72bae8467e7"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Teleport Select"",
-                    ""type"": ""Button"",
-                    ""id"": ""ba0fbd7b-2af9-48ef-ab0d-d6e31040ad3d"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Teleport Mode Activate"",
-                    ""type"": ""Button"",
-                    ""id"": ""aa41a4f2-aec2-4b66-b35d-2d7d3a763fd8"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Teleport Mode Cancel"",
-                    ""type"": ""Button"",
-                    ""id"": ""1bf508f0-be62-4a81-969a-1210f6262868"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Move"",
-                    ""type"": ""Value"",
-                    ""id"": ""5f239060-b2c6-4abe-afd3-8c1817de9eb4"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Rotate Anchor"",
-                    ""type"": ""Value"",
-                    ""id"": ""b76631a6-0ca8-45cd-96d4-02878dd21320"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""Translate Anchor"",
-                    ""type"": ""Value"",
-                    ""id"": ""4c10eb59-0ae1-4bcf-a846-5e975dbe6f42"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
-                    ""name"": ""PrimaryButton"",
-                    ""type"": ""Button"",
-                    ""id"": ""b84723f2-b534-428f-96b3-35ca1c91132f"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""SecondaryButton"",
-                    ""type"": ""Button"",
-                    ""id"": ""7a7e21d5-34b6-4a6f-af2b-d6dcbb46e35a"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Menu"",
-                    ""type"": ""Button"",
-                    ""id"": ""46aade83-b3db-46de-92d6-a461f021f7ed"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Scroll"",
-                    ""type"": ""Value"",
-                    ""id"": ""330d9fc2-ba41-4127-ac72-8825c41aaa11"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""cff36269-bd6d-409f-917a-e0b9b66c49a8"",
-                    ""path"": ""<XRController>{LeftHand}/triggerPressed"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""UI Press"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""Quaternion Fallback"",
-                    ""id"": ""78fa64a2-a330-4814-8a84-2bd9c9dbfef4"",
-                    ""path"": ""QuaternionFallback"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Rotation"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""first"",
-                    ""id"": ""5efe71d1-1b35-476f-9e77-94c27340ee56"",
-                    ""path"": ""<XRController>{LeftHand}/pointerRotation"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotation"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""second"",
-                    ""id"": ""fe6312e1-23cf-4cba-ae08-ca2e55a686da"",
-                    ""path"": ""<XRController>{LeftHand}/deviceRotation"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotation"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""third"",
-                    ""id"": ""c6b4ec5d-8476-4a2a-bb78-e6fa2eb6f29f"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotation"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""420eebd5-772b-40b9-86c5-70fda5edf941"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis"",
-                    ""interactions"": ""Sector(directions=1)"",
-                    ""processors"": """",
-                    ""groups"": ""Noncontinuous Move"",
-                    ""action"": ""Teleport Mode Activate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""2bb33925-8fc7-4d39-b4aa-d1ff84d582dc"",
-                    ""path"": ""<XRController>{LeftHand}/primaryButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Teleport Mode Activate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5d26d9b4-8b4b-495c-a531-dae1ef51bfba"",
-                    ""path"": ""<XRController>{LeftHand}/gripPressed"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Teleport Mode Cancel"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a8921574-7c94-466f-a6f2-b86153c12a88"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis"",
-                    ""interactions"": ""Sector(directions=-1,sweepBehavior=3)"",
-                    ""processors"": """",
-                    ""groups"": ""Noncontinuous Move"",
-                    ""action"": ""Teleport Select"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9863203e-3a26-4735-ba97-18ad457189a1"",
-                    ""path"": ""<XRController>{LeftHand}/primaryButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Teleport Select"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""Vector 3 Fallback"",
-                    ""id"": ""630caafe-7c69-4c3f-b0e9-b6278b40befd"",
-                    ""path"": ""Vector3Fallback"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Position"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""first"",
-                    ""id"": ""dd45437b-5118-42af-8af6-665d9fbff43f"",
-                    ""path"": ""<XRController>{LeftHand}/pointerPosition"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Position"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""second"",
-                    ""id"": ""5a54fae4-d26d-4574-b282-d7b66e950d6c"",
-                    ""path"": ""<XRController>{LeftHand}/devicePosition"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Position"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""third"",
-                    ""id"": ""df2996a1-77ae-4436-a0ad-236cc4c0131b"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Position"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e6ef805e-c6ff-458a-9d4e-c29aa9130ec1"",
-                    ""path"": ""<XRController>{LeftHand}/gripPressed"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Select"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5ebed121-b715-41c6-ab65-d42b87187e23"",
-                    ""path"": ""<XRController>{LeftHand}/triggerPressed"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Activate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a4daa3b8-3df4-41d6-ab3c-2db5479b0a31"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis"",
-                    ""interactions"": """",
-                    ""processors"": ""StickDeadzone"",
-                    ""groups"": ""Continuous Move"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""1e6c9bee-f037-4b4a-81c5-576b143edc63"",
-                    ""path"": ""<XRController>{LeftHand}/*"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Haptic Device"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""023ac9b5-2123-45d6-821b-8eb4414d3d16"",
-                    ""path"": ""2DVector(mode=2)"",
-                    ""interactions"": """",
-                    ""processors"": ""StickDeadzone"",
-                    ""groups"": """",
-                    ""action"": ""Rotate Anchor"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""6bbcb6da-30f1-472e-b07d-4b6cbecb6762"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""d7f616fa-f339-4bd1-8e34-531a5d1aa32c"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""7cb746f9-e8ae-4c77-a922-38a24cafaa7b"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis/x"",
-                    ""interactions"": """",
-                    ""processors"": ""Clamp(min=-1),Invert"",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""b2ffaaca-9f83-499e-952b-95b9ddef1da7"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis/x"",
-                    ""interactions"": """",
-                    ""processors"": ""Clamp(max=1)"",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Rotate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""2D Vector"",
-                    ""id"": ""fa3a6cd2-15c3-4afa-8269-f16b554876ab"",
-                    ""path"": ""2DVector(mode=2)"",
-                    ""interactions"": """",
-                    ""processors"": ""StickDeadzone"",
-                    ""groups"": """",
-                    ""action"": ""Translate Anchor"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""9622e081-cb2d-4673-a1ff-dcccc4bd01df"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis/y"",
-                    ""interactions"": """",
-                    ""processors"": ""Clamp(max=1)"",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Translate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""0855c07c-d21f-493d-b229-af41db9be5c3"",
-                    ""path"": ""<XRController>{LeftHand}/Primary2DAxis/y"",
-                    ""interactions"": """",
-                    ""processors"": ""Clamp(min=-1),Invert"",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Translate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""ce8d023d-a1b1-4644-a865-73c528f1a40e"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Translate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""39bb6919-cdfb-4da4-b758-fa1f654ac7b9"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Generic XR Controller"",
-                    ""action"": ""Translate Anchor"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e4bcb431-3aa3-4a90-b717-91e45b15dace"",
-                    ""path"": ""<XRController>{LeftHand}/primaryButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""PrimaryButton"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""7186b903-5653-44d5-800c-5da90545586e"",
-                    ""path"": ""<XRController>{LeftHand}/secondaryButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SecondaryButton"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""d0bf45ef-566f-4ad6-b2e5-98feed23b192"",
-                    ""path"": ""<XRController>{LeftHand}/menu"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Menu"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""cf589e47-5a5c-44b7-b8b4-8e83effea1b8"",
-                    ""path"": ""<XRController>{LeftHand}/system"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Menu"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""73d1eb2b-cdd0-4a02-969d-bc9c4cb3f742"",
-                    ""path"": ""<XRController>{LeftHand}/primary2DAxis"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Scroll"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
             ""name"": ""XRI RightHand"",
             ""id"": ""7960f8ef-2bf3-4281-aecc-4c03809d6c8c"",
             ""actions"": [
@@ -1235,15 +720,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
                     ""name"": ""SecondaryButton"",
                     ""type"": ""Button"",
                     ""id"": ""91b3e255-d1e4-42d7-b079-a4fd4e340fb3"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Menu"",
-                    ""type"": ""Button"",
-                    ""id"": ""5fdfc90e-ac20-4e1e-96d6-216954485db0"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -1562,7 +1038,18 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""e131fee8-af33-43cd-aad4-81c71917d004"",
-                    ""path"": ""<XRController>{LeftHand}/primaryButton"",
+                    ""path"": ""<XRController>{RightHand}/primaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrimaryButton"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d127b623-87f0-4250-8973-579550f71ef6"",
+                    ""path"": ""<ViveController>/menu"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -1573,6 +1060,488 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
                 {
                     ""name"": """",
                     ""id"": ""2a330f1f-0876-4abb-8fbe-fdda39612bb0"",
+                    ""path"": ""<XRController>{RightHand}/secondaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SecondaryButton"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""XRI RightHand Menu"",
+            ""id"": ""6d99f751-368a-4afe-9bf4-ea244aa06a2d"",
+            ""actions"": [
+                {
+                    ""name"": ""Position"",
+                    ""type"": ""Value"",
+                    ""id"": ""d0219f16-88f4-47a9-8e9b-b3f4a96834ff"",
+                    ""expectedControlType"": ""Vector3"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Rotation"",
+                    ""type"": ""Value"",
+                    ""id"": ""6ac39774-287e-47b5-aefe-4b12ee59ef17"",
+                    ""expectedControlType"": ""Quaternion"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Select"",
+                    ""type"": ""Button"",
+                    ""id"": ""617a73f7-067e-49c6-8def-97cff375c10c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Activate"",
+                    ""type"": ""Button"",
+                    ""id"": ""d68cd21b-fae9-4d48-b4f4-2fc378f9c5fe"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""UI Press"",
+                    ""type"": ""Button"",
+                    ""id"": ""013b43f4-d535-415b-9d9e-543725d0cd29"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Haptic Device"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""c0a73fd5-218a-4d2d-8e76-4034308e8858"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Teleport Select"",
+                    ""type"": ""Button"",
+                    ""id"": ""b886998a-f90e-45e6-b493-79fb56beeddf"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Teleport Mode Activate"",
+                    ""type"": ""Button"",
+                    ""id"": ""3f116200-917f-4c0b-ab57-5691b4ee9ce9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Teleport Mode Cancel"",
+                    ""type"": ""Button"",
+                    ""id"": ""d7f15154-b08d-4926-ae61-423028355063"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Turn"",
+                    ""type"": ""Value"",
+                    ""id"": ""ce0abf56-6788-4483-b341-9c1f84e21a01"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""d3fd4ca7-e456-4ddd-8a7d-99bb8761fca7"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Rotate Anchor"",
+                    ""type"": ""Value"",
+                    ""id"": ""0ef06f6b-a86e-42b9-b7cd-90e852faf3e4"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Translate Anchor"",
+                    ""type"": ""Value"",
+                    ""id"": ""80d9e327-9931-4678-9dfd-b024fd789273"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""PrimaryButton"",
+                    ""type"": ""Button"",
+                    ""id"": ""4c0f8598-f176-4964-a934-38dbbbb9c8db"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SecondaryButton"",
+                    ""type"": ""Button"",
+                    ""id"": ""2046d775-859e-4c4f-b94d-fd29f8667064"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Scroll"",
+                    ""type"": ""Value"",
+                    ""id"": ""1d32a7b4-7b54-48f6-959a-d04a5eb88db7"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""7e0a0366-00ca-4817-857d-5cb44f122c3c"",
+                    ""path"": ""<XRController>{RightHand}/triggerPressed"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Activate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Quaternion Fallback"",
+                    ""id"": ""d183677d-bbf1-427b-826d-7cc2d5684102"",
+                    ""path"": ""QuaternionFallback"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""first"",
+                    ""id"": ""ce91b650-25d0-44ba-b185-aa17df057d1d"",
+                    ""path"": ""<XRController>{RightHand}/pointerRotation"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""second"",
+                    ""id"": ""c1b91f01-a9e8-43d3-be90-e6bccfcebdf7"",
+                    ""path"": ""<XRController>{RightHand}/deviceRotation"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""third"",
+                    ""id"": ""c2d819dc-e305-4172-a6e5-47bbcc09c0c0"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1612eafb-7096-4a47-a909-2fa1f3c2feea"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis"",
+                    ""interactions"": ""Sector(directions=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Teleport Mode Activate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""06cb4f83-f823-4e0f-aaa2-22bc04baf538"",
+                    ""path"": ""<XRController>{RightHand}/primaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Teleport Mode Activate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2209afab-1426-4116-b775-aa3536e362a1"",
+                    ""path"": ""<XRController>{RightHand}/gripPressed"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Teleport Mode Cancel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""01b45feb-83d4-4f4d-b459-6dd87ece22cb"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis"",
+                    ""interactions"": ""Sector(directions=-1,sweepBehavior=3)"",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Teleport Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c2377dcb-8293-4c3b-90a1-6527a43b37c5"",
+                    ""path"": ""<XRController>{RightHand}/primaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Teleport Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Vector 3 Fallback"",
+                    ""id"": ""38465943-37f4-45e2-bc07-0d05d0d81b53"",
+                    ""path"": ""Vector3Fallback"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Position"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""first"",
+                    ""id"": ""7ad85bf5-4850-4a25-a7ac-bd330635eff5"",
+                    ""path"": ""<XRController>{RightHand}/pointerPosition"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""second"",
+                    ""id"": ""f79630c3-4149-4c86-9ed6-66f980025885"",
+                    ""path"": ""<XRController>{RightHand}/devicePosition"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""third"",
+                    ""id"": ""b3b67e37-71b9-400d-838a-2609d1f8ee0c"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""747c2bcd-5824-488f-88ef-285a59e7407a"",
+                    ""path"": ""<XRController>{RightHand}/gripPressed"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9dde3355-b048-4a6f-8eca-0c749bb910fb"",
+                    ""path"": ""<XRController>{RightHand}/triggerPressed"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""UI Press"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b23145b3-790a-4950-9e93-4c9f412e54ee"",
+                    ""path"": ""<XRController>{RightHand}/*"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Haptic Device"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""7efc4150-0956-4c8f-ad9d-c7dd6c692d2a"",
+                    ""path"": ""2DVector(mode=2)"",
+                    ""interactions"": """",
+                    ""processors"": ""StickDeadzone"",
+                    ""groups"": """",
+                    ""action"": ""Rotate Anchor"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""ad9e9a73-a8f3-41b5-8efc-4559fb14a584"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""ea96908a-1489-44d4-a80f-002bbca55e12"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""0ed9da7a-56fc-4691-bbbe-b62218671113"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis/x"",
+                    ""interactions"": """",
+                    ""processors"": ""Clamp(min=-1),Invert"",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""ca00e90e-e95f-4e39-b14f-d4418258e234"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis/x"",
+                    ""interactions"": """",
+                    ""processors"": ""Clamp(max=1)"",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Rotate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""20b65510-f768-4679-8469-4a4ad3330417"",
+                    ""path"": ""2DVector(mode=2)"",
+                    ""interactions"": """",
+                    ""processors"": ""StickDeadzone"",
+                    ""groups"": """",
+                    ""action"": ""Translate Anchor"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""a2042a3a-02aa-4a0b-8150-d26d5fe394ac"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis/y"",
+                    ""interactions"": """",
+                    ""processors"": ""Clamp(max=1)"",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Translate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""53231519-dd1d-4d7e-b390-e19b7adcdb93"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis/y"",
+                    ""interactions"": """",
+                    ""processors"": ""Clamp(min=-1),Invert"",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Translate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""5472dee8-ab98-4087-93b4-7b7a441d49a8"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Translate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""488a30af-5dcb-41be-94aa-57ab4bbe3b7d"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Translate Anchor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ae2a6b8c-52b1-4005-a391-b0870c53313e"",
+                    ""path"": ""<XRController>{RightHand}/primaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrimaryButton"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8fa6c371-f79b-4f68-b13e-7ff217e3148c"",
+                    ""path"": ""<ViveController>/menu"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrimaryButton"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e8c63740-fa8a-42f4-bd72-2ab1297b9699"",
                     ""path"": ""<XRController>{LeftHand}/secondaryButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -1583,23 +1552,23 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
                 },
                 {
                     ""name"": """",
-                    ""id"": ""ebeadef1-e2fb-4407-8b5a-36e05a916620"",
-                    ""path"": ""<XRController>{LeftHand}/menu"",
-                    ""interactions"": """",
+                    ""id"": ""230587f7-d6c3-4e41-ae10-ff15552303ed"",
+                    ""path"": ""<XRController>{RightHand}/primary2DAxis"",
+                    ""interactions"": ""Sector(directions=3,sweepBehavior=1)"",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Menu"",
+                    ""action"": ""Scroll"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""948aa064-5886-453c-ae9b-05ec771e9497"",
-                    ""path"": ""<XRController>{LeftHand}/system"",
-                    ""interactions"": """",
+                    ""id"": ""72581617-35d8-46c1-a3d7-adff8e06a23c"",
+                    ""path"": ""<XRController>{RightHand}/Primary2DAxis"",
+                    ""interactions"": ""Sector(directions=12,sweepBehavior=1),Sector(directions=2,sweepBehavior=2)"",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Menu"",
+                    ""groups"": ""Generic XR Controller"",
+                    ""action"": ""Turn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1689,24 +1658,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
         m_XRILeftHand_PrimaryButton = m_XRILeftHand.FindAction("PrimaryButton", throwIfNotFound: true);
         m_XRILeftHand_SecondaryButton = m_XRILeftHand.FindAction("SecondaryButton", throwIfNotFound: true);
         m_XRILeftHand_Menu = m_XRILeftHand.FindAction("Menu", throwIfNotFound: true);
-        // XRI LeftHand Menu
-        m_XRILeftHandMenu = asset.FindActionMap("XRI LeftHand Menu", throwIfNotFound: true);
-        m_XRILeftHandMenu_Position = m_XRILeftHandMenu.FindAction("Position", throwIfNotFound: true);
-        m_XRILeftHandMenu_Rotation = m_XRILeftHandMenu.FindAction("Rotation", throwIfNotFound: true);
-        m_XRILeftHandMenu_Select = m_XRILeftHandMenu.FindAction("Select", throwIfNotFound: true);
-        m_XRILeftHandMenu_Activate = m_XRILeftHandMenu.FindAction("Activate", throwIfNotFound: true);
-        m_XRILeftHandMenu_UIPress = m_XRILeftHandMenu.FindAction("UI Press", throwIfNotFound: true);
-        m_XRILeftHandMenu_HapticDevice = m_XRILeftHandMenu.FindAction("Haptic Device", throwIfNotFound: true);
-        m_XRILeftHandMenu_TeleportSelect = m_XRILeftHandMenu.FindAction("Teleport Select", throwIfNotFound: true);
-        m_XRILeftHandMenu_TeleportModeActivate = m_XRILeftHandMenu.FindAction("Teleport Mode Activate", throwIfNotFound: true);
-        m_XRILeftHandMenu_TeleportModeCancel = m_XRILeftHandMenu.FindAction("Teleport Mode Cancel", throwIfNotFound: true);
-        m_XRILeftHandMenu_Move = m_XRILeftHandMenu.FindAction("Move", throwIfNotFound: true);
-        m_XRILeftHandMenu_RotateAnchor = m_XRILeftHandMenu.FindAction("Rotate Anchor", throwIfNotFound: true);
-        m_XRILeftHandMenu_TranslateAnchor = m_XRILeftHandMenu.FindAction("Translate Anchor", throwIfNotFound: true);
-        m_XRILeftHandMenu_PrimaryButton = m_XRILeftHandMenu.FindAction("PrimaryButton", throwIfNotFound: true);
-        m_XRILeftHandMenu_SecondaryButton = m_XRILeftHandMenu.FindAction("SecondaryButton", throwIfNotFound: true);
-        m_XRILeftHandMenu_Menu = m_XRILeftHandMenu.FindAction("Menu", throwIfNotFound: true);
-        m_XRILeftHandMenu_Scroll = m_XRILeftHandMenu.FindAction("Scroll", throwIfNotFound: true);
         // XRI RightHand
         m_XRIRightHand = asset.FindActionMap("XRI RightHand", throwIfNotFound: true);
         m_XRIRightHand_Position = m_XRIRightHand.FindAction("Position", throwIfNotFound: true);
@@ -1724,7 +1675,24 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
         m_XRIRightHand_TranslateAnchor = m_XRIRightHand.FindAction("Translate Anchor", throwIfNotFound: true);
         m_XRIRightHand_PrimaryButton = m_XRIRightHand.FindAction("PrimaryButton", throwIfNotFound: true);
         m_XRIRightHand_SecondaryButton = m_XRIRightHand.FindAction("SecondaryButton", throwIfNotFound: true);
-        m_XRIRightHand_Menu = m_XRIRightHand.FindAction("Menu", throwIfNotFound: true);
+        // XRI RightHand Menu
+        m_XRIRightHandMenu = asset.FindActionMap("XRI RightHand Menu", throwIfNotFound: true);
+        m_XRIRightHandMenu_Position = m_XRIRightHandMenu.FindAction("Position", throwIfNotFound: true);
+        m_XRIRightHandMenu_Rotation = m_XRIRightHandMenu.FindAction("Rotation", throwIfNotFound: true);
+        m_XRIRightHandMenu_Select = m_XRIRightHandMenu.FindAction("Select", throwIfNotFound: true);
+        m_XRIRightHandMenu_Activate = m_XRIRightHandMenu.FindAction("Activate", throwIfNotFound: true);
+        m_XRIRightHandMenu_UIPress = m_XRIRightHandMenu.FindAction("UI Press", throwIfNotFound: true);
+        m_XRIRightHandMenu_HapticDevice = m_XRIRightHandMenu.FindAction("Haptic Device", throwIfNotFound: true);
+        m_XRIRightHandMenu_TeleportSelect = m_XRIRightHandMenu.FindAction("Teleport Select", throwIfNotFound: true);
+        m_XRIRightHandMenu_TeleportModeActivate = m_XRIRightHandMenu.FindAction("Teleport Mode Activate", throwIfNotFound: true);
+        m_XRIRightHandMenu_TeleportModeCancel = m_XRIRightHandMenu.FindAction("Teleport Mode Cancel", throwIfNotFound: true);
+        m_XRIRightHandMenu_Turn = m_XRIRightHandMenu.FindAction("Turn", throwIfNotFound: true);
+        m_XRIRightHandMenu_Move = m_XRIRightHandMenu.FindAction("Move", throwIfNotFound: true);
+        m_XRIRightHandMenu_RotateAnchor = m_XRIRightHandMenu.FindAction("Rotate Anchor", throwIfNotFound: true);
+        m_XRIRightHandMenu_TranslateAnchor = m_XRIRightHandMenu.FindAction("Translate Anchor", throwIfNotFound: true);
+        m_XRIRightHandMenu_PrimaryButton = m_XRIRightHandMenu.FindAction("PrimaryButton", throwIfNotFound: true);
+        m_XRIRightHandMenu_SecondaryButton = m_XRIRightHandMenu.FindAction("SecondaryButton", throwIfNotFound: true);
+        m_XRIRightHandMenu_Scroll = m_XRIRightHandMenu.FindAction("Scroll", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1975,159 +1943,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
     }
     public XRILeftHandActions @XRILeftHand => new XRILeftHandActions(this);
 
-    // XRI LeftHand Menu
-    private readonly InputActionMap m_XRILeftHandMenu;
-    private IXRILeftHandMenuActions m_XRILeftHandMenuActionsCallbackInterface;
-    private readonly InputAction m_XRILeftHandMenu_Position;
-    private readonly InputAction m_XRILeftHandMenu_Rotation;
-    private readonly InputAction m_XRILeftHandMenu_Select;
-    private readonly InputAction m_XRILeftHandMenu_Activate;
-    private readonly InputAction m_XRILeftHandMenu_UIPress;
-    private readonly InputAction m_XRILeftHandMenu_HapticDevice;
-    private readonly InputAction m_XRILeftHandMenu_TeleportSelect;
-    private readonly InputAction m_XRILeftHandMenu_TeleportModeActivate;
-    private readonly InputAction m_XRILeftHandMenu_TeleportModeCancel;
-    private readonly InputAction m_XRILeftHandMenu_Move;
-    private readonly InputAction m_XRILeftHandMenu_RotateAnchor;
-    private readonly InputAction m_XRILeftHandMenu_TranslateAnchor;
-    private readonly InputAction m_XRILeftHandMenu_PrimaryButton;
-    private readonly InputAction m_XRILeftHandMenu_SecondaryButton;
-    private readonly InputAction m_XRILeftHandMenu_Menu;
-    private readonly InputAction m_XRILeftHandMenu_Scroll;
-    public struct XRILeftHandMenuActions
-    {
-        private @XRInputActionsforMenu m_Wrapper;
-        public XRILeftHandMenuActions(@XRInputActionsforMenu wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Position => m_Wrapper.m_XRILeftHandMenu_Position;
-        public InputAction @Rotation => m_Wrapper.m_XRILeftHandMenu_Rotation;
-        public InputAction @Select => m_Wrapper.m_XRILeftHandMenu_Select;
-        public InputAction @Activate => m_Wrapper.m_XRILeftHandMenu_Activate;
-        public InputAction @UIPress => m_Wrapper.m_XRILeftHandMenu_UIPress;
-        public InputAction @HapticDevice => m_Wrapper.m_XRILeftHandMenu_HapticDevice;
-        public InputAction @TeleportSelect => m_Wrapper.m_XRILeftHandMenu_TeleportSelect;
-        public InputAction @TeleportModeActivate => m_Wrapper.m_XRILeftHandMenu_TeleportModeActivate;
-        public InputAction @TeleportModeCancel => m_Wrapper.m_XRILeftHandMenu_TeleportModeCancel;
-        public InputAction @Move => m_Wrapper.m_XRILeftHandMenu_Move;
-        public InputAction @RotateAnchor => m_Wrapper.m_XRILeftHandMenu_RotateAnchor;
-        public InputAction @TranslateAnchor => m_Wrapper.m_XRILeftHandMenu_TranslateAnchor;
-        public InputAction @PrimaryButton => m_Wrapper.m_XRILeftHandMenu_PrimaryButton;
-        public InputAction @SecondaryButton => m_Wrapper.m_XRILeftHandMenu_SecondaryButton;
-        public InputAction @Menu => m_Wrapper.m_XRILeftHandMenu_Menu;
-        public InputAction @Scroll => m_Wrapper.m_XRILeftHandMenu_Scroll;
-        public InputActionMap Get() { return m_Wrapper.m_XRILeftHandMenu; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(XRILeftHandMenuActions set) { return set.Get(); }
-        public void SetCallbacks(IXRILeftHandMenuActions instance)
-        {
-            if (m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface != null)
-            {
-                @Position.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnPosition;
-                @Position.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnPosition;
-                @Position.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnPosition;
-                @Rotation.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnRotation;
-                @Rotation.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnRotation;
-                @Rotation.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnRotation;
-                @Select.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnSelect;
-                @Select.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnSelect;
-                @Select.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnSelect;
-                @Activate.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnActivate;
-                @Activate.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnActivate;
-                @Activate.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnActivate;
-                @UIPress.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnUIPress;
-                @UIPress.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnUIPress;
-                @UIPress.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnUIPress;
-                @HapticDevice.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnHapticDevice;
-                @HapticDevice.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnHapticDevice;
-                @HapticDevice.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnHapticDevice;
-                @TeleportSelect.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportSelect;
-                @TeleportSelect.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportSelect;
-                @TeleportSelect.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportSelect;
-                @TeleportModeActivate.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportModeActivate;
-                @TeleportModeActivate.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportModeActivate;
-                @TeleportModeActivate.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportModeActivate;
-                @TeleportModeCancel.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportModeCancel;
-                @TeleportModeCancel.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportModeCancel;
-                @TeleportModeCancel.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTeleportModeCancel;
-                @Move.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnMove;
-                @Move.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnMove;
-                @Move.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnMove;
-                @RotateAnchor.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnRotateAnchor;
-                @RotateAnchor.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnRotateAnchor;
-                @RotateAnchor.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnRotateAnchor;
-                @TranslateAnchor.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTranslateAnchor;
-                @TranslateAnchor.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTranslateAnchor;
-                @TranslateAnchor.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnTranslateAnchor;
-                @PrimaryButton.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnPrimaryButton;
-                @PrimaryButton.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnPrimaryButton;
-                @PrimaryButton.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnPrimaryButton;
-                @SecondaryButton.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnSecondaryButton;
-                @SecondaryButton.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnSecondaryButton;
-                @SecondaryButton.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnSecondaryButton;
-                @Menu.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnMenu;
-                @Menu.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnMenu;
-                @Menu.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnMenu;
-                @Scroll.started -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnScroll;
-                @Scroll.performed -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnScroll;
-                @Scroll.canceled -= m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface.OnScroll;
-            }
-            m_Wrapper.m_XRILeftHandMenuActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Position.started += instance.OnPosition;
-                @Position.performed += instance.OnPosition;
-                @Position.canceled += instance.OnPosition;
-                @Rotation.started += instance.OnRotation;
-                @Rotation.performed += instance.OnRotation;
-                @Rotation.canceled += instance.OnRotation;
-                @Select.started += instance.OnSelect;
-                @Select.performed += instance.OnSelect;
-                @Select.canceled += instance.OnSelect;
-                @Activate.started += instance.OnActivate;
-                @Activate.performed += instance.OnActivate;
-                @Activate.canceled += instance.OnActivate;
-                @UIPress.started += instance.OnUIPress;
-                @UIPress.performed += instance.OnUIPress;
-                @UIPress.canceled += instance.OnUIPress;
-                @HapticDevice.started += instance.OnHapticDevice;
-                @HapticDevice.performed += instance.OnHapticDevice;
-                @HapticDevice.canceled += instance.OnHapticDevice;
-                @TeleportSelect.started += instance.OnTeleportSelect;
-                @TeleportSelect.performed += instance.OnTeleportSelect;
-                @TeleportSelect.canceled += instance.OnTeleportSelect;
-                @TeleportModeActivate.started += instance.OnTeleportModeActivate;
-                @TeleportModeActivate.performed += instance.OnTeleportModeActivate;
-                @TeleportModeActivate.canceled += instance.OnTeleportModeActivate;
-                @TeleportModeCancel.started += instance.OnTeleportModeCancel;
-                @TeleportModeCancel.performed += instance.OnTeleportModeCancel;
-                @TeleportModeCancel.canceled += instance.OnTeleportModeCancel;
-                @Move.started += instance.OnMove;
-                @Move.performed += instance.OnMove;
-                @Move.canceled += instance.OnMove;
-                @RotateAnchor.started += instance.OnRotateAnchor;
-                @RotateAnchor.performed += instance.OnRotateAnchor;
-                @RotateAnchor.canceled += instance.OnRotateAnchor;
-                @TranslateAnchor.started += instance.OnTranslateAnchor;
-                @TranslateAnchor.performed += instance.OnTranslateAnchor;
-                @TranslateAnchor.canceled += instance.OnTranslateAnchor;
-                @PrimaryButton.started += instance.OnPrimaryButton;
-                @PrimaryButton.performed += instance.OnPrimaryButton;
-                @PrimaryButton.canceled += instance.OnPrimaryButton;
-                @SecondaryButton.started += instance.OnSecondaryButton;
-                @SecondaryButton.performed += instance.OnSecondaryButton;
-                @SecondaryButton.canceled += instance.OnSecondaryButton;
-                @Menu.started += instance.OnMenu;
-                @Menu.performed += instance.OnMenu;
-                @Menu.canceled += instance.OnMenu;
-                @Scroll.started += instance.OnScroll;
-                @Scroll.performed += instance.OnScroll;
-                @Scroll.canceled += instance.OnScroll;
-            }
-        }
-    }
-    public XRILeftHandMenuActions @XRILeftHandMenu => new XRILeftHandMenuActions(this);
-
     // XRI RightHand
     private readonly InputActionMap m_XRIRightHand;
     private IXRIRightHandActions m_XRIRightHandActionsCallbackInterface;
@@ -2146,7 +1961,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
     private readonly InputAction m_XRIRightHand_TranslateAnchor;
     private readonly InputAction m_XRIRightHand_PrimaryButton;
     private readonly InputAction m_XRIRightHand_SecondaryButton;
-    private readonly InputAction m_XRIRightHand_Menu;
     public struct XRIRightHandActions
     {
         private @XRInputActionsforMenu m_Wrapper;
@@ -2166,7 +1980,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
         public InputAction @TranslateAnchor => m_Wrapper.m_XRIRightHand_TranslateAnchor;
         public InputAction @PrimaryButton => m_Wrapper.m_XRIRightHand_PrimaryButton;
         public InputAction @SecondaryButton => m_Wrapper.m_XRIRightHand_SecondaryButton;
-        public InputAction @Menu => m_Wrapper.m_XRIRightHand_Menu;
         public InputActionMap Get() { return m_Wrapper.m_XRIRightHand; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -2221,9 +2034,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
                 @SecondaryButton.started -= m_Wrapper.m_XRIRightHandActionsCallbackInterface.OnSecondaryButton;
                 @SecondaryButton.performed -= m_Wrapper.m_XRIRightHandActionsCallbackInterface.OnSecondaryButton;
                 @SecondaryButton.canceled -= m_Wrapper.m_XRIRightHandActionsCallbackInterface.OnSecondaryButton;
-                @Menu.started -= m_Wrapper.m_XRIRightHandActionsCallbackInterface.OnMenu;
-                @Menu.performed -= m_Wrapper.m_XRIRightHandActionsCallbackInterface.OnMenu;
-                @Menu.canceled -= m_Wrapper.m_XRIRightHandActionsCallbackInterface.OnMenu;
             }
             m_Wrapper.m_XRIRightHandActionsCallbackInterface = instance;
             if (instance != null)
@@ -2273,13 +2083,163 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
                 @SecondaryButton.started += instance.OnSecondaryButton;
                 @SecondaryButton.performed += instance.OnSecondaryButton;
                 @SecondaryButton.canceled += instance.OnSecondaryButton;
-                @Menu.started += instance.OnMenu;
-                @Menu.performed += instance.OnMenu;
-                @Menu.canceled += instance.OnMenu;
             }
         }
     }
     public XRIRightHandActions @XRIRightHand => new XRIRightHandActions(this);
+
+    // XRI RightHand Menu
+    private readonly InputActionMap m_XRIRightHandMenu;
+    private IXRIRightHandMenuActions m_XRIRightHandMenuActionsCallbackInterface;
+    private readonly InputAction m_XRIRightHandMenu_Position;
+    private readonly InputAction m_XRIRightHandMenu_Rotation;
+    private readonly InputAction m_XRIRightHandMenu_Select;
+    private readonly InputAction m_XRIRightHandMenu_Activate;
+    private readonly InputAction m_XRIRightHandMenu_UIPress;
+    private readonly InputAction m_XRIRightHandMenu_HapticDevice;
+    private readonly InputAction m_XRIRightHandMenu_TeleportSelect;
+    private readonly InputAction m_XRIRightHandMenu_TeleportModeActivate;
+    private readonly InputAction m_XRIRightHandMenu_TeleportModeCancel;
+    private readonly InputAction m_XRIRightHandMenu_Turn;
+    private readonly InputAction m_XRIRightHandMenu_Move;
+    private readonly InputAction m_XRIRightHandMenu_RotateAnchor;
+    private readonly InputAction m_XRIRightHandMenu_TranslateAnchor;
+    private readonly InputAction m_XRIRightHandMenu_PrimaryButton;
+    private readonly InputAction m_XRIRightHandMenu_SecondaryButton;
+    private readonly InputAction m_XRIRightHandMenu_Scroll;
+    public struct XRIRightHandMenuActions
+    {
+        private @XRInputActionsforMenu m_Wrapper;
+        public XRIRightHandMenuActions(@XRInputActionsforMenu wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Position => m_Wrapper.m_XRIRightHandMenu_Position;
+        public InputAction @Rotation => m_Wrapper.m_XRIRightHandMenu_Rotation;
+        public InputAction @Select => m_Wrapper.m_XRIRightHandMenu_Select;
+        public InputAction @Activate => m_Wrapper.m_XRIRightHandMenu_Activate;
+        public InputAction @UIPress => m_Wrapper.m_XRIRightHandMenu_UIPress;
+        public InputAction @HapticDevice => m_Wrapper.m_XRIRightHandMenu_HapticDevice;
+        public InputAction @TeleportSelect => m_Wrapper.m_XRIRightHandMenu_TeleportSelect;
+        public InputAction @TeleportModeActivate => m_Wrapper.m_XRIRightHandMenu_TeleportModeActivate;
+        public InputAction @TeleportModeCancel => m_Wrapper.m_XRIRightHandMenu_TeleportModeCancel;
+        public InputAction @Turn => m_Wrapper.m_XRIRightHandMenu_Turn;
+        public InputAction @Move => m_Wrapper.m_XRIRightHandMenu_Move;
+        public InputAction @RotateAnchor => m_Wrapper.m_XRIRightHandMenu_RotateAnchor;
+        public InputAction @TranslateAnchor => m_Wrapper.m_XRIRightHandMenu_TranslateAnchor;
+        public InputAction @PrimaryButton => m_Wrapper.m_XRIRightHandMenu_PrimaryButton;
+        public InputAction @SecondaryButton => m_Wrapper.m_XRIRightHandMenu_SecondaryButton;
+        public InputAction @Scroll => m_Wrapper.m_XRIRightHandMenu_Scroll;
+        public InputActionMap Get() { return m_Wrapper.m_XRIRightHandMenu; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(XRIRightHandMenuActions set) { return set.Get(); }
+        public void SetCallbacks(IXRIRightHandMenuActions instance)
+        {
+            if (m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface != null)
+            {
+                @Position.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnPosition;
+                @Position.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnPosition;
+                @Position.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnPosition;
+                @Rotation.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnRotation;
+                @Rotation.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnRotation;
+                @Rotation.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnRotation;
+                @Select.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnSelect;
+                @Select.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnSelect;
+                @Select.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnSelect;
+                @Activate.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnActivate;
+                @Activate.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnActivate;
+                @Activate.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnActivate;
+                @UIPress.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnUIPress;
+                @UIPress.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnUIPress;
+                @UIPress.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnUIPress;
+                @HapticDevice.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnHapticDevice;
+                @HapticDevice.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnHapticDevice;
+                @HapticDevice.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnHapticDevice;
+                @TeleportSelect.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportSelect;
+                @TeleportSelect.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportSelect;
+                @TeleportSelect.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportSelect;
+                @TeleportModeActivate.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportModeActivate;
+                @TeleportModeActivate.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportModeActivate;
+                @TeleportModeActivate.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportModeActivate;
+                @TeleportModeCancel.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportModeCancel;
+                @TeleportModeCancel.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportModeCancel;
+                @TeleportModeCancel.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTeleportModeCancel;
+                @Turn.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTurn;
+                @Turn.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTurn;
+                @Turn.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTurn;
+                @Move.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnMove;
+                @RotateAnchor.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnRotateAnchor;
+                @RotateAnchor.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnRotateAnchor;
+                @RotateAnchor.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnRotateAnchor;
+                @TranslateAnchor.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTranslateAnchor;
+                @TranslateAnchor.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTranslateAnchor;
+                @TranslateAnchor.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnTranslateAnchor;
+                @PrimaryButton.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnPrimaryButton;
+                @PrimaryButton.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnPrimaryButton;
+                @PrimaryButton.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnPrimaryButton;
+                @SecondaryButton.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnSecondaryButton;
+                @SecondaryButton.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnSecondaryButton;
+                @SecondaryButton.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnSecondaryButton;
+                @Scroll.started -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnScroll;
+                @Scroll.performed -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnScroll;
+                @Scroll.canceled -= m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface.OnScroll;
+            }
+            m_Wrapper.m_XRIRightHandMenuActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Position.started += instance.OnPosition;
+                @Position.performed += instance.OnPosition;
+                @Position.canceled += instance.OnPosition;
+                @Rotation.started += instance.OnRotation;
+                @Rotation.performed += instance.OnRotation;
+                @Rotation.canceled += instance.OnRotation;
+                @Select.started += instance.OnSelect;
+                @Select.performed += instance.OnSelect;
+                @Select.canceled += instance.OnSelect;
+                @Activate.started += instance.OnActivate;
+                @Activate.performed += instance.OnActivate;
+                @Activate.canceled += instance.OnActivate;
+                @UIPress.started += instance.OnUIPress;
+                @UIPress.performed += instance.OnUIPress;
+                @UIPress.canceled += instance.OnUIPress;
+                @HapticDevice.started += instance.OnHapticDevice;
+                @HapticDevice.performed += instance.OnHapticDevice;
+                @HapticDevice.canceled += instance.OnHapticDevice;
+                @TeleportSelect.started += instance.OnTeleportSelect;
+                @TeleportSelect.performed += instance.OnTeleportSelect;
+                @TeleportSelect.canceled += instance.OnTeleportSelect;
+                @TeleportModeActivate.started += instance.OnTeleportModeActivate;
+                @TeleportModeActivate.performed += instance.OnTeleportModeActivate;
+                @TeleportModeActivate.canceled += instance.OnTeleportModeActivate;
+                @TeleportModeCancel.started += instance.OnTeleportModeCancel;
+                @TeleportModeCancel.performed += instance.OnTeleportModeCancel;
+                @TeleportModeCancel.canceled += instance.OnTeleportModeCancel;
+                @Turn.started += instance.OnTurn;
+                @Turn.performed += instance.OnTurn;
+                @Turn.canceled += instance.OnTurn;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
+                @RotateAnchor.started += instance.OnRotateAnchor;
+                @RotateAnchor.performed += instance.OnRotateAnchor;
+                @RotateAnchor.canceled += instance.OnRotateAnchor;
+                @TranslateAnchor.started += instance.OnTranslateAnchor;
+                @TranslateAnchor.performed += instance.OnTranslateAnchor;
+                @TranslateAnchor.canceled += instance.OnTranslateAnchor;
+                @PrimaryButton.started += instance.OnPrimaryButton;
+                @PrimaryButton.performed += instance.OnPrimaryButton;
+                @PrimaryButton.canceled += instance.OnPrimaryButton;
+                @SecondaryButton.started += instance.OnSecondaryButton;
+                @SecondaryButton.performed += instance.OnSecondaryButton;
+                @SecondaryButton.canceled += instance.OnSecondaryButton;
+                @Scroll.started += instance.OnScroll;
+                @Scroll.performed += instance.OnScroll;
+                @Scroll.canceled += instance.OnScroll;
+            }
+        }
+    }
+    public XRIRightHandMenuActions @XRIRightHandMenu => new XRIRightHandMenuActions(this);
     private int m_GenericXRControllerSchemeIndex = -1;
     public InputControlScheme GenericXRControllerScheme
     {
@@ -2331,25 +2291,6 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
         void OnSecondaryButton(InputAction.CallbackContext context);
         void OnMenu(InputAction.CallbackContext context);
     }
-    public interface IXRILeftHandMenuActions
-    {
-        void OnPosition(InputAction.CallbackContext context);
-        void OnRotation(InputAction.CallbackContext context);
-        void OnSelect(InputAction.CallbackContext context);
-        void OnActivate(InputAction.CallbackContext context);
-        void OnUIPress(InputAction.CallbackContext context);
-        void OnHapticDevice(InputAction.CallbackContext context);
-        void OnTeleportSelect(InputAction.CallbackContext context);
-        void OnTeleportModeActivate(InputAction.CallbackContext context);
-        void OnTeleportModeCancel(InputAction.CallbackContext context);
-        void OnMove(InputAction.CallbackContext context);
-        void OnRotateAnchor(InputAction.CallbackContext context);
-        void OnTranslateAnchor(InputAction.CallbackContext context);
-        void OnPrimaryButton(InputAction.CallbackContext context);
-        void OnSecondaryButton(InputAction.CallbackContext context);
-        void OnMenu(InputAction.CallbackContext context);
-        void OnScroll(InputAction.CallbackContext context);
-    }
     public interface IXRIRightHandActions
     {
         void OnPosition(InputAction.CallbackContext context);
@@ -2367,6 +2308,24 @@ public partial class @XRInputActionsforMenu : IInputActionCollection2, IDisposab
         void OnTranslateAnchor(InputAction.CallbackContext context);
         void OnPrimaryButton(InputAction.CallbackContext context);
         void OnSecondaryButton(InputAction.CallbackContext context);
-        void OnMenu(InputAction.CallbackContext context);
+    }
+    public interface IXRIRightHandMenuActions
+    {
+        void OnPosition(InputAction.CallbackContext context);
+        void OnRotation(InputAction.CallbackContext context);
+        void OnSelect(InputAction.CallbackContext context);
+        void OnActivate(InputAction.CallbackContext context);
+        void OnUIPress(InputAction.CallbackContext context);
+        void OnHapticDevice(InputAction.CallbackContext context);
+        void OnTeleportSelect(InputAction.CallbackContext context);
+        void OnTeleportModeActivate(InputAction.CallbackContext context);
+        void OnTeleportModeCancel(InputAction.CallbackContext context);
+        void OnTurn(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
+        void OnRotateAnchor(InputAction.CallbackContext context);
+        void OnTranslateAnchor(InputAction.CallbackContext context);
+        void OnPrimaryButton(InputAction.CallbackContext context);
+        void OnSecondaryButton(InputAction.CallbackContext context);
+        void OnScroll(InputAction.CallbackContext context);
     }
 }
