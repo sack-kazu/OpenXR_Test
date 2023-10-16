@@ -8,7 +8,7 @@ public class InputSystemDeviceDetector : MonoBehaviour
     bool firstTime = true;
     private void Awake()
     {
-        _text.text = $"Awake";
+        //_text.text = $"Awake";
         InputSystem.onDeviceChange += OnDeviceChange;
     }
     void Update()
